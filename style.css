@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
 
 *{
     margin: 0;
@@ -16,10 +18,42 @@ header{
     background: black url('media/background.png') center/cover no-repeat;
     position: relative;
     height: 125vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #layer-home{
-    display: none;
+    position: relative;
+    max-width: 60vw;
+    top: -10%;
+}
+
+#layer-home > img{
+    width: 100%;
+}
+
+#web-page-content-home{
+    position: absolute;
+    top: 30%;
+    left: 3vw;
+    list-style-position: inside;
+    font-size: 1.4vw;
+    width: 20vw;
+}
+
+#web-page-content-home h1{
+    font-family: "Archivo Black", sans-serif;
+    line-height: 100%;
+}
+
+#web-page-content-home ul{
+    padding: 2vh 2vh 4vh 2vh;
+}
+
+#web-page-content-home > img{
+    width: 80%;
 }
 
 #downloads{
