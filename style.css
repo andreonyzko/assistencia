@@ -61,15 +61,14 @@ header{
     padding-bottom: 20vh;
 }
 
-#downloads-container{
+#apps-container{
     display: flex;
     gap: 10px;
     margin: 0 4vw;
-
     justify-content: center;
 }
 
-#downloads-container h2{
+#downloads h2{
     margin: 4vh 0;
     text-align: center;
     text-transform: uppercase;
@@ -77,14 +76,14 @@ header{
     font-size: 45px;
 }
 
-#downloads-container ul{
+#downloads ul{
     list-style-type: none;
     display: flex;
     flex-direction: column;
     gap: 2vh;
 }
 
-#downloads-container li{
+#downloads li{
     background-color: black;
     color: white;
     padding: 23px;
@@ -92,7 +91,7 @@ header{
     cursor: pointer;
 }
 
-#downloads-container a{
+#downloads a{
     display: flex;
     flex-direction: row;
     gap: 2vw;
@@ -101,15 +100,15 @@ header{
 }
 
 .app-content{
-    width: 70%;
+    width: 75%;
 }
 
-#downloads-container img{
+#downloads img{
     width: 25%;
     align-self: center;
 }
 
-#downloads-container p{
+#downloads p{
     color: #e7e9e8;
     font-size: 15px;
     text-align: justify;
@@ -127,6 +126,22 @@ header{
     cursor: pointer;
 }
 
+#outros-container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+#outros-container li{
+    width: 27vw;
+}
+
+#downloads li{
+    width: 25vw;
+}
+
 footer{
     background-color: black;
     color: white;
@@ -142,12 +157,17 @@ footer{
 }
 
 @media screen and (max-width: 1094px){
-    #downloads-container{
+    #apps-container, #outros-container ul{
         flex-direction: column;
+        align-items: center;
     }
 
     #downloads-container img{
         width: 10%;
+    }
+
+    #downloads li{
+        width: 50vw;
     }
 }
 
