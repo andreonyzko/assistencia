@@ -31,6 +31,8 @@ header{
     display: flex;
     gap: 10px;
     margin: 0 4vw;
+
+    justify-content: center;
 }
 
 #downloads-container h2{
@@ -60,7 +62,6 @@ header{
     display: flex;
     flex-direction: row;
     gap: 2vw;
-
     color: white;
     text-decoration: none;
 }
@@ -92,7 +93,6 @@ header{
     cursor: pointer;
 }
 
-
 footer{
     background-color: black;
     color: white;
@@ -105,6 +105,16 @@ footer{
 
 #error-message{
     display: none;
+}
+
+@media screen and (max-width: 1094px){
+    #downloads-container{
+        flex-direction: column;
+    }
+
+    #downloads-container img{
+        width: 10%;
+    }
 }
 
 
