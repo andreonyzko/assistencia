@@ -184,7 +184,7 @@ footer{
         text-align: center;
         justify-content: center;
         color: white;
-        background: black url('media/background3.png') center top no-repeat;
+        background: black url('media/background3.png') center/cover no-repeat;
     }
 
     #error-message div{
@@ -200,4 +200,5 @@ footer{
     #error-message span{
         font-size: 15px;
     }
+
 }
