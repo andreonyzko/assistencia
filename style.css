@@ -49,7 +49,7 @@ header{
 }
 
 #web-page-content-home ul{
-    padding: 2vh 2vh 2vh 2vh;
+    padding: 2vh 2vh 4vh 2vh;
 }
 
 #web-page-content-home > img{
@@ -173,8 +173,31 @@ footer{
 
 
 @media screen and (orientation: portrait) {
+    main {
+        display: none;
+    }
 
-    #layer-home{
-        scale: 1.5;
+    #error-message{
+        display: block;
+        height: 100vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: white;
+        background: black url('media/background3.png') center top no-repeat;
+    }
+
+    #error-message div{
+        width: 50vw;
+        align-self: center;
+    }
+    
+    #error-message p{
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    #error-message span{
+        font-size: 15px;
     }
 }
