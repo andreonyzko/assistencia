@@ -1,2 +1,13 @@
-# assistencia
- This is a personal website designed to make computer maintenance and optimization easier. The landing page brings together a collection of essential tools for diagnosing, optimizing, and cleaning Windows, as well as technical reference documents.
+# 🛠️ Assistência Técnica
+
+Este projeto é uma página pessoal desenvolvida para facilitar o suporte técnico e a otimização de computadores. A página reúne uma coleção de ferramentas essenciais para diagnóstico, limpeza e otimização, além de documentos técnicos de referência.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+
+---
